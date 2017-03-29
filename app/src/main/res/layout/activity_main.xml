@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    tools:context="com.example.choco.first_homework.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profile"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="________"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="20dp"
+        android:hint="name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="20dp"
+        android:hint="id"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/tu_btn"
+        android:layout_marginTop="20dp"
+        android:hint="school"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:background="@drawable/tu_btn"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+</LinearLayout>
